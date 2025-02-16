@@ -47,7 +47,6 @@ entry_2.grid(row=2, column=1)
 
 tk.Button(text='Chuyển từ C->F',command=convert_from_c_to_f).grid(row=3, column=0, padx=10)
 tk.Button(text='Chuyển từ F->C',command=convert_from_f_to_c).grid(row=3, column=1, padx=10)
-tk.Button(text='Chuyển từ CM->M',command=convert_from_f_to_c).grid(row=3, column=2, padx=10)
 
 
 screen.mainloop()
